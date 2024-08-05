@@ -2,6 +2,9 @@ import React from "react"
 import Card from './Card.js';
 
 const CardList = ({robots}) => {
+    // if (true) {
+    //     throw new Error('!NOOOOOOOOOOOOO');
+    // } // This is used to cast an error to the component to check the errorBoundary  component
     return (
         <div>
             {robots.map((user, i)=> {
