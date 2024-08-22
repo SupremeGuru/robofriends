@@ -14,6 +14,8 @@ class App extends Component{
         }
     }
     componentDidMount(){
+        // console.log(this.props.store.getState()); // This was used to get the state of the store
+        
         fetch('https://jsonplaceholder.typicode.com/users')
         .then((response)=>{
             return response.json()
