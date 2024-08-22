@@ -4,7 +4,7 @@ import './index.css';
 import './containers/App.css'
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
-import { Provider, connect } from "react-redux"; // This is what connects redux and react together 
+import { Provider } from "react-redux"; // This is what connects redux and react together 
 import { createStore } from "redux"; // This is the module to create a store with redux 
 import { searchRobots } from './reducers';
 import 'tachyons'
