@@ -4,7 +4,8 @@
     font-family: 'SEGA LOGO FONT';
     font-style: normal;
     font-weight: normal;
-    src: local('SEGA LOGO FONT') url('SEGA.TTF') format('TTF');
+    src: local('SEGA LOGO FONT') url('./SEGA.TTF') format('TTF');
+    src: local('SEGA LOGO FONT') url('http://www.cufonfonts.com/en/font/6218/sega-logo-font') format('TTF');
 }
 
 h1{
